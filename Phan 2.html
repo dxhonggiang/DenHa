@@ -1,11 +1,19 @@
 <head>
     <link rel="stylesheet" href="DenHa.css">
+    <script src="ssscript.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phần II. Di tích đền Hả</title>
 </head>
 
 <body>
+
+<script>
+    let slideIndex = [1, 1, 1, 1, 1, 1];
+    let slideId = ["mySlides1", "mySlides4", "mySlides6", "mySlides9", "mySlides11", "mySlides13"];
+    let dotId = ["slideDot1", "slideDot4", "slideDot6", "slideDot9", "slideDot11", "slideDot13"];
+    let numOfSlide = 6;
+</script>
 
 <p style="margin-top:12.0pt;margin-bottom:12.0pt;text-align:center;border:none;"><strong>PHẦN II</strong>
 
@@ -19,8 +27,53 @@
 
 <p class="normal">Khi ấy, vùng Lục Ngạn là trung tâm của Động Giáp-một động rất to ở Đông Bắc nước ta, lại là nơi yết hầu ra vào giữa Việt Nam và Trung Hoa. Trong cả thời kỳ nhà Lý, các công chúa nhà Lý đã cho xây dựng nhiều chùa và đền miếu ở trong vùng Động Giáp. Theo truyền tích và các hiện vật tìm thấy qua các đợt khảo cổ ở đất Lục Ngạn gồm các di vật, cổ vật như đĩa thời Lý, ngói cổ cánh sen thời Trần ở xung quanh khu vực đền Hả (trung tâm của Động Giáp xưa) cho thấy, đền Hả có lịch sử xây dựng từ thời Lý-Trần. Tuy nhiên, trải qua thời gian và sự tàn phá của chiến tranh nên kết cấu kiến trúc hiện nay của đền Hả là kết quả của những lần trùng tu vào các triều đại Lê Trung hưng và thời Nguyễn sau này.
 
-<p style="margin-bottom:14.4pt;text-align:center;">Slide ảnh 1
-</p>
+<div class="slideshow-container">
+    <div class="mySlides1">
+        <img src="ảnh/1. đền hả ngày xưa/1.jpg"
+            style="width:100%">
+    </div>
+
+    <div class="mySlides1">
+        <img src="ảnh/1. đền hả ngày xưa/2.jpg"
+            style="width:100%">
+    </div>
+
+    <div class="mySlides1">
+        <img src="ảnh/1. đền hả ngày xưa/3.jpg"
+            style="width:100%">
+    </div>
+
+    <div class="mySlides1">
+        <img src="ảnh/1. đền hả ngày xưa/4.jpg"
+            style="width:100%">
+    </div>
+
+    <div class="mySlides1">
+        <img src="ảnh/1. đền hả ngày xưa/5.jpg"
+            style="width:100%">
+    </div>
+
+    <div class="mySlides1">
+        <img src="ảnh/1. đền hả ngày xưa/6.jpg"
+            style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+    <br>
+    <div style="text-align:center">
+        <span class="dot slideDot1" onclick="chooseSlide(1,0)"></span>
+        <span class="dot slideDot1" onclick="chooseSlide(2,0)"></span>
+        <span class="dot slideDot1" onclick="chooseSlide(3,0)"></span>
+        <span class="dot slideDot1" onclick="chooseSlide(4,0)"></span>
+        <span class="dot slideDot1" onclick="chooseSlide(5,0)"></span>
+        <span class="dot slideDot1" onclick="chooseSlide(6,0)"></span>
+    </div>
+</div>
+
+<script>
+    showSlides(1, 0);
+</script>
 
 <p style="margin-bottom:14.4pt;text-align:center;color:grey"><em>Đền Hả ngày xưa</em></p>
 
@@ -44,8 +97,37 @@
 
 <p style="margin-bottom:14.4pt;text-align:center;color:grey"><em>Di tích lịch sử cấp Quốc Gia</em></p>
 
-<p style="margin-bottom:14.4pt;text-align:center;">Slide ảnh 4
-</p>
+<div class="slideshow-container">
+    <div class="mySlides4">
+        <img src="ảnh/4. đền hả nằm ở thôn kép 2b - hồng giang/Picture10.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides4">
+        <img src="ảnh/4. đền hả nằm ở thôn kép 2b - hồng giang/Picture11.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides4">
+        <img src="ảnh/4. đền hả nằm ở thôn kép 2b - hồng giang/Picture12.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides4">
+        <img src="ảnh/4. đền hả nằm ở thôn kép 2b - hồng giang/Picture13.jpg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+    <br>
+    <div style="text-align:center">
+        <span class="dot slideDot4" onclick="chooseSlide(1,1)"></span>
+        <span class="dot slideDot4" onclick="chooseSlide(2,1)"></span>
+        <span class="dot slideDot4" onclick="chooseSlide(3,1)"></span>
+        <span class="dot slideDot4" onclick="chooseSlide(4,1)"></span>
+    </div>
+</div>
+
+<script>
+    showSlides(1, 1);
+</script>
 
 <p style="margin-bottom:14.4pt;text-align:center;color:grey"><em>Đền Hả nằm ở thôn Kép 2B - Hồng Giang</em>
     </p>
@@ -58,8 +140,65 @@
 
 <p class="normal">Theo truyền tích và căn cứ vào các hiện vật khảo cổ như ngói, đĩa, gạch, bát… tìm thấy ở phía sau đền cho thấy, đền Hả có từ thời Lý-Trần. Các công trình còn lại ngày nay là những công trình đã được tu bổ vào các triều đại Lê Trung hưng và thời Nguyễn sau này.
 
-<p style="margin-bottom:14.4pt;text-align:center;">Slide ảnh 6
-</p>
+<div class="slideshow-container">
+    <div class="mySlides6">
+        <img src="ảnh/6. một số hiện vật được khảo cổ khai quật năm 2016/Picture15.jpg"
+            style="width:100%">
+    </div>
+
+    <div class="mySlides6">
+        <img src="ảnh/6. một số hiện vật được khảo cổ khai quật năm 2016/Picture16.jpg"
+            style="width:100%">
+    </div>
+
+    <div class="mySlides6">
+        <img src="ảnh/6. một số hiện vật được khảo cổ khai quật năm 2016/Picture17.jpg"
+            style="width:100%">
+    </div>
+
+    <div class="mySlides6">
+        <img src="ảnh/6. một số hiện vật được khảo cổ khai quật năm 2016/Picture18.jpg"
+            style="width:100%">
+    </div>
+
+    <div class="mySlides6">
+        <img src="ảnh/6. một số hiện vật được khảo cổ khai quật năm 2016/Picture19.jpg"
+            style="width:100%">
+    </div>
+
+    <div class="mySlides6">
+        <img src="ảnh/6. một số hiện vật được khảo cổ khai quật năm 2016/Picture20.jpg"
+            style="width:100%">
+    </div>
+
+    <div class="mySlides6">
+        <img src="ảnh/6. một số hiện vật được khảo cổ khai quật năm 2016/Picture21.jpg"
+            style="width:100%">
+    </div>
+
+    <div class="mySlides6">
+        <img src="ảnh/6. một số hiện vật được khảo cổ khai quật năm 2016/Picture22.jpg"
+            style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+    <br>
+    <div style="text-align:center">
+        <span class="dot slideDot6" onclick="chooseSlide(1,2)"></span>
+        <span class="dot slideDot6" onclick="chooseSlide(2,2)"></span>
+        <span class="dot slideDot6" onclick="chooseSlide(3,2)"></span>
+        <span class="dot slideDot6" onclick="chooseSlide(4,2)"></span>
+        <span class="dot slideDot6" onclick="chooseSlide(5,2)"></span>
+        <span class="dot slideDot6" onclick="chooseSlide(6,2)"></span>
+        <span class="dot slideDot6" onclick="chooseSlide(7,2)"></span>
+        <span class="dot slideDot6" onclick="chooseSlide(8,2)"></span>
+    </div>
+</div>
+
+<script>
+    showSlides(1, 2);
+</script>
 
 <p style="margin-bottom:14.4pt;text-align:center;color:grey"><em>Một số hiện vật được các nhà khảo cổ khai quật được năm 2016</em></p>
 
@@ -77,8 +216,35 @@
 
 <p class="normal">Từ cổng tam môn, du khách đi thẳng theo con đường lát gạch sạch đẹp tiến vào khu vực đền chính. Từ đây, du khách dừng chân bao quát khung cảnh đền, xung quanh cây cối cổ thụ xanh mát, xum xuê bốn mùa, thật u tịch, mát mẻ. Phía trước chính diện đền còn có tam môn thứ 2 của đền. Trước tam môn là dòng sông Lục hiền hòa. Nếu du khách đi theo tuyến đường thủy đến đây có thể vào di tích theo cổng thứ hai này. Tam môn này mới được xây dựng kiểu đơn giản với các trụ biểu đứng riêng lẻ không có phần mái như tam môn nhất. Tam môn gồm ba lối ra vào, một lối đi chính, hai lối đi phụ ở hai bên. Hai trụ biểu lớn ở giữa cao hơn hai trụ biểu phụ hai bên, song về quy cách, kiểu dáng, trang trí trên trụ đều giống nhau. Trên đỉnh trụ đắp kiểu quả dành dành, dưới liền kề bốn ô trang trí đề tài tứ quý, thân trụ đắp dòng chữ Hán với nội dung ca ngợi cảnh đẹp nơi đất linh. Phía trong tam môn là bức bình phong.
 
-<p style="margin-bottom:14.4pt;text-align:center;">Slide ảnh 9
-</p>
+<div class="slideshow-container">
+    <div class="mySlides9">
+        <img src="ảnh/9. lối đi lên đền hả/Picture25.jpg"
+            style="width:100%">
+    </div>
+
+    <div class="mySlides9">
+        <img src="ảnh/9. lối đi lên đền hả/Picture26.jpg"
+            style="width:100%">
+    </div>
+
+    <div class="mySlides9">
+        <img src="ảnh/9. lối đi lên đền hả/Picture27.jpg"
+            style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+    <br>
+    <div style="text-align:center">
+        <span class="dot slideDot9" onclick="chooseSlide(1,3)"></span>
+        <span class="dot slideDot9" onclick="chooseSlide(2,3)"></span>
+        <span class="dot slideDot9" onclick="chooseSlide(3,3)"></span>
+    </div>
+</div>
+
+<script>
+    showSlides(1, 3);
+</script>
 
 <p style="margin-bottom:14.4pt;text-align:center;color:grey"><em>Lối lên Đền Hả</em></p>
 
@@ -91,8 +257,46 @@
 
 <p class="normal">Từ bên ngoài sân, du khách qua hệ thống cửa gỗ vào trong đền, trước mắt là những khối kiến trúc đồ sộ được làm chắc chắn nay đã nhuốm màu thời gian. Ở bên ngoài, ta dường như tưởng đây là công trình có kiến trúc hình chữ Tam song khi ở bên trong nhìn kỹ sẽ cho ta thấy, đền Hả được làm theo kiểu tiền Nhất hậu Công. Đầu tiên là đền Hạ, giữa là đền Trung và trong cùng là đền Thượng. Hai tòa Trung và Thượng được liên kết với nhau bởi một tòa gọi là ống muống hay còn gọi là nhà cầu.
 
-<p style="margin-bottom:14.4pt;text-align:center;">Slide ảnh 11
-</p>
+<div class="slideshow-container">
+    <div class="mySlides11">
+        <img src="ảnh/11. kiến trúc bên trong đền Hả/Picture29.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides11">
+        <img src="ảnh/11. kiến trúc bên trong đền Hả/Picture30.jpg"
+            style="width:100%">
+    </div>
+
+    <div class="mySlides11">
+        <img src="ảnh/11. kiến trúc bên trong đền Hả/Picture31.jpg"
+            style="width:100%">
+    </div>
+
+    <div class="mySlides11">
+        <img src="ảnh/11. kiến trúc bên trong đền Hả/Picture32.jpg"
+            style="width:100%">
+    </div>
+
+    <div class="mySlides11">
+        <img src="ảnh/11. kiến trúc bên trong đền Hả/Picture33.jpg"
+            style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+    <br>
+    <div style="text-align:center">
+        <span class="dot slideDot11" onclick="chooseSlide(1,4)"></span>
+        <span class="dot slideDot11" onclick="chooseSlide(2,4)"></span>
+        <span class="dot slideDot11" onclick="chooseSlide(3,4)"></span>
+        <span class="dot slideDot11" onclick="chooseSlide(4,4)"></span>
+        <span class="dot slideDot11" onclick="chooseSlide(5,4)"></span>
+    </div>
+</div>
+
+<script>
+    showSlides(1, 4);
+</script>
 
 <p style="margin-bottom:14.4pt;text-align:center;color:grey"><em>Kiến trúc bên trong Đền Hả</em></p>
 
@@ -103,10 +307,41 @@
 
 <p style="margin-bottom:14.4pt;text-align:center;color:grey"><em>Thiên Đài Tự ngày xưa</em></p>
 
-<p style="margin-bottom:14.4pt;text-align:center;">Slide ảnh 13
-</p>
+<div class="slideshow-container">
+    <div class="mySlides13">
+        <img src="ảnh/13. thiên đài tự nay/Picture35.jpg"
+            style="width:100%">
+    </div>
+
+    <div class="mySlides13">
+        <img src="ảnh/13. thiên đài tự nay/Picture36.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides13">
+        <img src="ảnh/13. thiên đài tự nay/Picture37.jpg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+    <br>
+    <div style="text-align:center">
+        <span class="dot slideDot13" onclick="chooseSlide(1,5)"></span>
+        <span class="dot slideDot13" onclick="chooseSlide(2,5)"></span>
+        <span class="dot slideDot13" onclick="chooseSlide(3,5)"></span>
+    </div>
+</div>
+
+<script>
+    showSlides(1, 5);
+</script>
 
 <p style="margin-bottom:14.4pt;text-align:center;color:grey"><em>Thiên Đài Tự nay</em>
 </p>
+
+<script>
+    window.onload = function () {
+        setTimeout(autoChangeSlide, 5000);
+    }
+</script>
 
 </body>
