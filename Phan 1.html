@@ -1,11 +1,19 @@
 <head>
   <link rel="stylesheet" href="DenHa.css">
+  <script src="ssscript.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Phần I. Vùng đất và con người Hồng Giang</title>
 </head>
 
 <body>
+
+<script>
+  let slideIndex = [1, 1];
+  let slideId = ["mySlides1", "mySlides2"];
+  let dotId = ["slideDot1", "slideDot2"];
+  let numOfSlide = 2;
+</script>
 
 <p style="margin-top:12.0pt;margin-bottom:12.0pt;text-align:center;border:none;"><strong>PHẦN I. </strong></p>
 
@@ -27,17 +35,51 @@
 
 <p class="normal">Địa hình của xã có nhiều đồi gò, ngòi lạch nhưng so với các xã trong huyện thì Hồng Giang vẫn là xã có địa hình bằng phẳng và rộng hơn nhiều xã trong toàn khu vực, bởi Hồng Giang là một xã nằm trong khu vực lòng chảo lớn của thung lũng lòng chảo sông Lục Nam, bốn bề được bao bọc bởi các dãy núi lớn như: Yên Tử, Bảo Đài, Thái Hòa, Dông Quần ngựa, núi Ải…</p>
 
-<p class="normal">Nơi đây núi sông quanh vòng, ôm ấp hữu tình; giao thông thủy bộ đều thuận tiện. Đường thủy có sông Lục Nam, đường bộ có trục đường quốc lộ 31 và đường tỉnh lộ 290 đi từ Hồng Giang đến Chi Lăng (Lạng Sơn), tạo cho Hồng Giang có vị thế chiến lược quan trọng trong lịch sử dân tộc luôn được các triều đại phong kiến quan tâm chú ý. Cũng chính vì thế mà các lớp cư dân Việt cổ, Tày cổ đã đến cư trú ở nơi đây từ rất sớm và để lại trên vùng đất Hồng Giang những địa danh cổ như: Kép, Hăng, Nguộn, Lường, Trong, Ngọt… Tiếp đó là các bộ phận cư dân các dân tộc Kinh, Sán Dìu, Sán Chí, Dao, Hoa, Tày, Nùng lần lượt cư trú trong vài thế kỷ trước trở lại đây, tạo cho Hồng Giang một diện mạo tươi đẹp, đa dạng, phong phú. Nơi đây có núi, có sông, có làng mạc, có thôn bản, có các dân tộc cùng nhau sinh sống đoàn kết, chung tay xây dựng cuộc sống và cùng nhau đấu tranh khi có kẻ thù&nbsp;chung.</p>
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="ảnh/0. Một số hình ảnh về Hồng Giang ngày nay/Picture1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="ảnh/0. Một số hình ảnh về Hồng Giang ngày nay/Picture2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="ảnh/0. Một số hình ảnh về Hồng Giang ngày nay/Picture3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="ảnh/0. Một số hình ảnh về Hồng Giang ngày nay/s0kcm23b.png" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+  <br>
+  <div style="text-align:center">
+    <span class="dot slideDot1" onclick="chooseSlide(1,0)"></span>
+    <span class="dot slideDot1" onclick="chooseSlide(2,0)"></span>
+    <span class="dot slideDot1" onclick="chooseSlide(3,0)"></span>
+    <span class="dot slideDot1" onclick="chooseSlide(4,0)"></span>
+  </div>
+</div>
+
+<script>
+  showSlides(1, 0);
+</script>
+
+<p class="picnote"><em>Một số hình ảnh Hồng Giang ngày nay</em></p>
+
+<p class="normal">Nơi đây núi sông quanh vòng, ôm ấp hữu tình; giao thông thủy bộ đều thuận tiện. Đường thủy có sông Lục Nam, đường bộ có trục đường quốc lộ 31 và đường tỉnh lộ 290 đi từ Hồng Giang đến Chi Lăng (Lạng Sơn), tạo cho Hồng Giang có vị thế chiến lược quan trọng trong lịch sử dân tộc luôn được các triều đại phong kiến quan tâm chú ý. Cũng chính vì thế mà các lớp cư dân Việt cổ, Tày cổ đã đến cư trú ở nơi đây từ rất sớm và để lại trên vùng đất Hồng Giang những địa danh cổ như: Kép, Hăng, Nguộn, Lường, Trong, Ngọt… Tiếp đó là các bộ phận cư dân các dân tộc Kinh, Sán Dìu, Sán Chí, Dao, Hoa, Tày, Nùng lần lượt cư trú trong vài thế kỷ trước trở lại đây, tạo cho Hồng Giang một diện mạo tươi đẹp, đa dạng, phong phú. Nơi đây có núi, có sông, có làng mạc, có thôn bản, có các dân tộc cùng nhau sinh sống đoàn kết, chung tay xây dựng cuộc sống và cùng nhau đấu tranh khi có kẻ thùchung.</p>
 
 <p style="margin-top:12.0pt;margin-bottom:12.0pt;border:none;"><strong>III. Vùng đất Hồng Giang trong tiến trình lịch sử</strong></p>
 
-<p class="normal">Hồng Giang là xã thuộc vùng đất cổ, nằm trong vùng văn hóa Chũ, thuộc địa bàn cư trú của cư dân hậu kỳ đá cũ cách ngày&nbsp;nay từ 1 đến 2 vạn năm. Nơi đây đã có người Việt cổ, Tày cổ cư trú, sinh sống.</p>
+<p class="normal">Hồng Giang là xã thuộc vùng đất cổ, nằm trong vùng văn hóa Chũ, thuộc địa bàn cư trú của cư dân hậu kỳ đá cũ cách ngàynay từ 1 đến 2 vạn năm. Nơi đây đã có người Việt cổ, Tày cổ cư trú, sinh sống.</p>
 
 <p class="normal">Thời Hùng Vương, đất Hồng Giang thuộc một trong 15 bộ của nước Văn Lang. Đến thời Bắc thuộc, là vùng đất của huyện Kê Từ và Bắc Đới của quận Giao Chỉ.</p>
 
-<p class="normal">Thời Lý, thuộc đất Động Giáp của châu Lạng, lộ Bắc Giang, nước Đại Việt. Thời Trần, thuộc huyện Na Ngạn,&nbsp;châu Lạng Giang, lộ Bắc Giang. Từ năm 1407, lại thuộc phủ Lạng Giang&nbsp;(là một trong 17 phủ thời thuộc Minh).</p>
+<p class="normal">Thời Lý, thuộc đất Động Giáp của châu Lạng, lộ Bắc Giang, nước Đại Việt. Thời Trần, thuộc huyện Na Ngạn,châu Lạng Giang, lộ Bắc Giang. Từ năm 1407, lại thuộc phủ Lạng Giang(là một trong 17 phủ thời thuộc Minh).</p>
 
-<p class="normal">Đầu thời Lê thuộc huyện Na Ngạn, phủ Lạng Giang, của Bắc Giang thượng lộ. Đến năm 1466 thuộc huyện Lục Ngạn của thừa tuyên Bắc Giang. Năm 1469, thuộc thừa tuyên Kinh Bắc. Sau đó thuộc&nbsp;trấn Kinh Bắc. Vào niên hiệu Minh Mạng thứ 12 (1831), triều Nguyễn, trấn Kinh Bắc đổi thành trấn Bắc Ninh, vùng đất này thuộc huyện Lục Ngạn, phủ Lạng Giang, tỉnh Bắc Ninh.</p>
+<p class="normal">Đầu thời Lê thuộc huyện Na Ngạn, phủ Lạng Giang, của Bắc Giang thượng lộ. Đến năm 1466 thuộc huyện Lục Ngạn của thừa tuyên Bắc Giang. Năm 1469, thuộc thừa tuyên Kinh Bắc. Sau đó thuộctrấn Kinh Bắc. Vào niên hiệu Minh Mạng thứ 12 (1831), triều Nguyễn, trấn Kinh Bắc đổi thành trấn Bắc Ninh, vùng đất này thuộc huyện Lục Ngạn, phủ Lạng Giang, tỉnh Bắc Ninh.</p>
 
 <p class="normal">Từ tháng 11 năm 1889, vùng này thuộc tỉnh Lục Nam. Năm 1891 lại thuộc Đạo quan binh Phả Lại. Năm 1895, tỉnh Bắc Ninh chia thành Bắc Ninh và Bắc Giang, nơi đây thuộc về Bắc Giang. Từ năm 1905, vùng này thuộc châu Sơn Động; sau thuộc phủ Lục Ngạn, tỉnh Bắc Giang. Từ năm 1946 thuộc huyện Lục Ngạn. Năm 1958 thuộc xã Hồng Giang, huyện Lục Ngạn, tỉnh Bắc Giang. Năm 1963 thuộc tỉnh Hà Bắc. Từ năm 1997 thuộc tỉnh Bắc Giang.</p>
 
@@ -51,11 +93,11 @@
 
 <p class="normal">Ngày nay, các thôn, phường ấy đổi và nâng cấp lên thành nhiều thôn như: Thôn Kép có Kép 1, Kép 2, Kép 3. Thôn Nguộn có Nguộn Trong, Nguộn Ngoài. Lại có thôn Chính, thôn Ngọt, thôn Thượng, thôn Hiệp Tân, Ao Ca, Phương Sơn.</p>
 
-<p class="normal">Có thể nói rằng, về cơ bản xã Hồng Giang được thành lập lên từ các thôn phường của xã Hả Hộ cũ. Trong đó làng Kép&nbsp;(hay làng Hả) là làng gốc. Nghiên cứu về vùng đất Hồng Giang là chính là nghiên cứu về xã Hả Hộ, trong đó lấy làng Hả làm trung tâm.</p>
+<p class="normal">Có thể nói rằng, về cơ bản xã Hồng Giang được thành lập lên từ các thôn phường của xã Hả Hộ cũ. Trong đó làng Kép(hay làng Hả) là làng gốc. Nghiên cứu về vùng đất Hồng Giang là chính là nghiên cứu về xã Hả Hộ, trong đó lấy làng Hả làm trung tâm.</p>
 
 <p style="margin-top:12.0pt;margin-bottom:12.0pt;border:none;"><strong>IV. Hồng Giang - Một vùng đất mang nhiều dấu ấn lịch sử văn hóa</strong></p>
 
-<p class="normal">Vùng đất Động Giáp xưa nằm trong vùng văn hóa Chũ. Chũ là một từ cổ với ý nghĩa là vùng đất chủ, đất chúa; có tên Hán - Việt là Trù Hựu. Ở vùng Chũ, các nhà khảo cổ học đã phát hiện ra các công cụ đá đẽo thời hậu kỳ đồ đá cũ ở Chũ làng và Chũ phố. Các công cụ đó thuộc nền văn hóa Sơn Vi cách ngày nay từ 1 đến 2 vạn năm. Hồng Giang là vùng đất thuộc vùng văn hóa Chũ, nên cũng có thể gọi nơi đây thuộc địa bàn cư trú và sinh sống của cư dân thời hậu kỳ đá cũ ở bên bờ sông Lục Nam&nbsp;và kéo dài qua các thời đại đá mới, thời đại kim khí sau này.</p>
+<p class="normal">Vùng đất Động Giáp xưa nằm trong vùng văn hóa Chũ. Chũ là một từ cổ với ý nghĩa là vùng đất chủ, đất chúa; có tên Hán - Việt là Trù Hựu. Ở vùng Chũ, các nhà khảo cổ học đã phát hiện ra các công cụ đá đẽo thời hậu kỳ đồ đá cũ ở Chũ làng và Chũ phố. Các công cụ đó thuộc nền văn hóa Sơn Vi cách ngày nay từ 1 đến 2 vạn năm. Hồng Giang là vùng đất thuộc vùng văn hóa Chũ, nên cũng có thể gọi nơi đây thuộc địa bàn cư trú và sinh sống của cư dân thời hậu kỳ đá cũ ở bên bờ sông Lục Namvà kéo dài qua các thời đại đá mới, thời đại kim khí sau này.</p>
 
 <p class="normal">Tới thời Bắc thuộc, trước thế kỷ X, vùng đất này đã có cư dân thời Bắc thuộc cư trú. Dấu tích của lớp cư dân này là những vật liệu kiến trúc xây hầm mộ và những loại gốm thời Bắc thuộc. Đó là những loại gạch có hoa văn ô trám ở rìa cạnh được sử dụng lại để xây móng tường ở gò Kỳ Sơn (khu vực đền Hả, xã Hồng Giang) được phát hiện qua đợt khảo cổ học cuối năm 2016 và các di vật là vò, lọ, âu, chậu bằng gốm, bằng đồng phát hiện ở Trù Hựu, Phượng Sơn…</p>
 
@@ -65,32 +107,65 @@
 
 <p class="normal">Kết quả khảo cổ học năm 2006, 2008, 2016 ở Cầu Từ xã Phượng Sơn, đền Hả xã Hồng Giang (huyện Lục Ngạn), Khám Lạng (huyện Lục Nam)… đã chứng minh nơi đây có thể ví như một trung tâm hành chính, văn hóa của Châu Lạng xưa. Những dấu tích dinh thự ở khu Cầu Từ, Bồng Lai, Khám Lạng, Hồng Giang có nhiều nét tương tự như ở hoàng thành Thăng Long; nhưng quy mô ở đây nhỏ hơn, mật độ phân bố thưa hơn. Trong các dấu tích ấy, tiêu biểu có di vật là gạch có dòng chữ Hán: Lý gia đệ tam đế Long Thụy Thái Bình tứ niên tạo, có nghĩa là loại gạch này được tạo ra vào niên hiệu Long Thụy Thái Bình, đời vua nhà Lý thứ 3 (1057) .</p>
 
-<p class="normal">Các tài liệu dã sử ở đôi bờ sông Lục Nam cho biết khu Tòng Lệnh (Lục Nam) là khu cung An Khánh. Đây là cung mà Vũ Tỉnh ở đó ban đầu.&nbsp;Khu vực xã Phượng Sơn (Lục Ngạn) là cung Bồng Lai, nơi Vũ Tỉnh chuyển sang cư trú về sau và sinh ra Vũ Thành ở đó.</p>
+<p class="normal">Các tài liệu dã sử ở đôi bờ sông Lục Nam cho biết khu Tòng Lệnh (Lục Nam) là khu cung An Khánh. Đây là cung mà Vũ Tỉnh ở đó ban đầu.Khu vực xã Phượng Sơn (Lục Ngạn) là cung Bồng Lai, nơi Vũ Tỉnh chuyển sang cư trú về sau và sinh ra Vũ Thành ở đó.</p>
 
 <p class="normal">Từ khi nhà Trần thành lập (1226), vùng đất Hồng Giang được nhà Trần chú ý và đưa vào phòng tuyến chống quân xâm lược Nguyên Mông ở thế kỷ XIII. Trong cuộc kháng chiến này, Trần Hưng Đạo được giao thống lĩnh ba quân nhà Trần, đóng đại bản doanh ở Nội Bàng (khu vực Chũ) chỉ huy quân dân nhà Trần chặn đánh quân Nguyên suốt từ Sa Lý, đến Bản Động, qua Hồng Giang và các khu vực thuộc thung lũng sông Lục Nam ở vùng Chũ. Trong các chiến tích chung của nhà Trần bên sông Lục Nam, vùng đất Hồng Giang cũng là vùng đất xung yếu chống quân Nguyên.</p>
 
-<p class="normal">Vào thời Lê, thời Lê Mạc, Lê Trung hưng (tức là từ 1427 đến 1779), vùng đất Hồng Giang là nơi bố trí phòng chống quân xâm lược nhà Minh; là địa bàn hoạt động&nbsp;của các thế lực cát cứ của nhà Mạc. Sau đó là vùng đất do nhà Lê Trung hưng quản lãnh. Dấu tích của các thời kỳ này đều có ở các làng xóm của đất Hồng Giang. Đó là các di vật thời Mạc như: Lon sành, vại sành, lọ sành, …; các dấu tích là đình, chùa thời Lê Trung hưng với những tấm bia đá, sắc phong và nhiều di vật khác.</p>
+<p class="normal">Vào thời Lê, thời Lê Mạc, Lê Trung hưng (tức là từ 1427 đến 1779), vùng đất Hồng Giang là nơi bố trí phòng chống quân xâm lược nhà Minh; là địa bàn hoạt độngcủa các thế lực cát cứ của nhà Mạc. Sau đó là vùng đất do nhà Lê Trung hưng quản lãnh. Dấu tích của các thời kỳ này đều có ở các làng xóm của đất Hồng Giang. Đó là các di vật thời Mạc như: Lon sành, vại sành, lọ sành, …; các dấu tích là đình, chùa thời Lê Trung hưng với những tấm bia đá, sắc phong và nhiều di vật khác.</p>
 
-<p class="normal">Thời đại Tây Sơn (1779-1802), ở Hồng Giang&nbsp;ngày&nbsp;nay vẫn còn một công trình kiến trúc duy nhất của&nbsp;thời đại Tây Sơn, đó là tòa hậu cung của đền Hả. Tòa này được dựng từ năm 1797, niên hiệu Cảnh Thịnh đời vua Quang Toản. Đây là một dấu tích hiếm ở tỉnh Bắc Giang mà Hồng Giang là nơi lưu giữ.</p>
+<p class="normal">Thời đại Tây Sơn (1779-1802), ở Hồng Giangngàynay vẫn còn một công trình kiến trúc duy nhất củathời đại Tây Sơn, đó là tòa hậu cung của đền Hả. Tòa này được dựng từ năm 1797, niên hiệu Cảnh Thịnh đời vua Quang Toản. Đây là một dấu tích hiếm ở tỉnh Bắc Giang mà Hồng Giang là nơi lưu giữ.</p>
 
 <p class="normal">Vào thời Nguyễn (từ năm 1802 đến năm 1945), trong thời kỳ này, từ năm 1858 thực dân Pháp tiến hành xâm lược nước ta, biến triều đình nhà Nguyễn thành bộ máy chính quyền tay sai cho chúng, quay lại đàn áp, bóc lột nhân dân ta khiến cho khắp nơi trong nước rơi vào cảnh nước mất, nhà tan, dân tình điêu đứng. Vì thế, nhân dân Hồng Giang cũng như nhân dân cả nước cùng nhau đoàn kết hướng theo các phong trào yêu nước đứng lên chống lại kẻ thù của dân tộc.</p>
 
 <p class="normal">Từ năm 1930 trở đi, nhân dân Hồng Giang một lòng theo Đảng Cộng sản Việt Nam đã làm nên nhiều thắng lợi vẻ vang, tiến hành cuộc Cách mạng tháng Tám thành công.</p>
 
-<p class="normal">Trong &nbsp;thời kỳ này, ở Hồng Giang đã có các sự kiện đáng quan tâm như việc xây dựng tòa tiền tế đền Hả; tòa tiền đường chùa Hả vào đời vua Gia Long (1807). Sau đó lại được nhà Nguyễn chọn lập ra khu đồn điền ở Hả Hộ. Đồn điền này được đặt trên một khu đồng gần làng Nguộn. Bốn bề đắp lũy đất, bên trong đồn là dinh thự các quan, quân coi việc đồn điền, khai khẩn đất hoang hóa. Sách <em>Đại Nam Nhất Thống Chí</em> ghi: Năm 1866, chuẩn định 9 điều lệ lập đồn điền ở Bắc Ninh. Cấp cho mỗi người 10 quan tiền làm vốn. Ba năm phải&nbsp;trả lại. Mỗi tháng cấp cho mỗi người tiền một quan, gạo một phương, đủ một năm thì thôi.</p>
+<p class="normal">Trong thời kỳ này, ở Hồng Giang đã có các sự kiện đáng quan tâm như việc xây dựng tòa tiền tế đền Hả; tòa tiền đường chùa Hả vào đời vua Gia Long (1807). Sau đó lại được nhà Nguyễn chọn lập ra khu đồn điền ở Hả Hộ. Đồn điền này được đặt trên một khu đồng gần làng Nguộn. Bốn bề đắp lũy đất, bên trong đồn là dinh thự các quan, quân coi việc đồn điền, khai khẩn đất hoang hóa. Sách <em>Đại Nam Nhất Thống Chí</em> ghi: Năm 1866, chuẩn định 9 điều lệ lập đồn điền ở Bắc Ninh. Cấp cho mỗi người 10 quan tiền làm vốn. Ba năm phảitrả lại. Mỗi tháng cấp cho mỗi người tiền một quan, gạo một phương, đủ một năm thì thôi.</p>
 
 <p class="normal">Ba sở đồn điền chính: Một sở đặt ở làng A Hộ (Hả Hộ) huyện Lục Ngạn, một sở đặt ở làng Hoàng Vân, huyện Hiệp Hòa, một sở đặt ở làng Xuân Bảng, huyện Kim Anh. Ba sở đồn điền đều đào ao, đắp thành, dựng làm trại nhà. Còn các đồn nhánh, tùy tiện đến để cầy cấy khai khẩn.</p>
 
-<p class="normal">Cũng trong giai đoạn này, thời kỳ từ 1858 đến 1884, đời vua Tự Đức, nhân dân Hồng Giang còn cùng nhau chống lại bọn phỉ Tăng Á Trị, Lao Doãn Tài quấy nhiễu. Các thôn làng trong vùng đều được củng cố thành làng chiến đấu; có cổng chính và lối thoát hiểm; có lũy tre&nbsp;bao bọc kín làng và có lũy đất che chở, trong đánh ra thì dễ, ngoài đánh vào thì khó; có nhà sang để làm nơi chỉ huy và có chỗ trú ẩn cho người già, phụ nữ và trẻ em…</p>
+<p class="normal">Cũng trong giai đoạn này, thời kỳ từ 1858 đến 1884, đời vua Tự Đức, nhân dân Hồng Giang còn cùng nhau chống lại bọn phỉ Tăng Á Trị, Lao Doãn Tài quấy nhiễu. Các thôn làng trong vùng đều được củng cố thành làng chiến đấu; có cổng chính và lối thoát hiểm; có lũy trebao bọc kín làng và có lũy đất che chở, trong đánh ra thì dễ, ngoài đánh vào thì khó; có nhà sang để làm nơi chỉ huy và có chỗ trú ẩn cho người già, phụ nữ và trẻ em…</p>
 
 <p class="normal">Vào năm 1884, quân Pháp tiến đánh thành Bắc Ninh (12/3/1884) sau đó tiến đánh phủ Lạng Giang, đánh lên Kép (Lạng Giang) và đánh Bắc Lệ. Đồng thời lại đánh lên Yên Thế (16/3/1884). Ở Yên Thế, chúng vấp phải sự chống trả của nghĩa quân Yên Thế, nên phải dẫm chân tại chỗ. Ở Bắc Lệ, chúng vấp phải sự chống trả của nghĩa quân Hoàng Đình Kinh (Cai Kinh) nên cũng không tiến lên Lạng Sơn được. Do vậy, chúng cho tiến quân về phía Lục Nam, do tướng Negrier chỉ huy. Sau trận Lầm (10/10/1884), trận Chũ (11,12/10/1884), quân Pháp tiến đánh Hả Hộ. Ngày 16/12/1884, trận Hả Hộ diễn ra ác liệt ở khu vực chợ Hả Hộ. Quân Pháp phải rút về Kép Hạ (Giáp Hạ) chịu tổn thất về người và khí tài… song cuối cùng chúng vẫn tổ chức tấn công, đẩy lui các lực lượng kháng cự khỏi vùng Hả Hộ để tiến lên Lạng Sơn.</p>
 
-<p class="normal">Từ sau ngày quân Pháp chiếm đất Hồng Giang, tình hình Hồng Giang ít diễn ra các sự kiện lớn nhưng trong cuộc sống của&nbsp;làng xã vẫn diễn ra các hoạt động kinh tế, văn hóa, xã hội như tổ chức cơ cấu làng xã, tổ chức các hoạt động tín ngưỡng, lễ hội… để phát triển làng xã. Lễ hội lớn nhất của Hồng Giang là lễ hội đền Hả, được&nbsp;tổ chức vào ngày 6, 7, 8 tháng Giêng âm lịch hằng năm. Trong ngày hội, nhân dân khắp nơi nô nức kéo về trẩy hội, xem dân Hả Hộ tế lễ, rước kiệu nhà Thánh ra Bãi Dược hành lễ, vật thờ, chạy cờ, đảo cờ, hoàn cung, mộc dục, cúng Phật, cầu kinh siêu sinh tịnh độ…</p>
+<p class="normal">Từ sau ngày quân Pháp chiếm đất Hồng Giang, tình hình Hồng Giang ít diễn ra các sự kiện lớn nhưng trong cuộc sống củalàng xã vẫn diễn ra các hoạt động kinh tế, văn hóa, xã hội như tổ chức cơ cấu làng xã, tổ chức các hoạt động tín ngưỡng, lễ hội… để phát triển làng xã. Lễ hội lớn nhất của Hồng Giang là lễ hội đền Hả, đượctổ chức vào ngày 6, 7, 8 tháng Giêng âm lịch hằng năm. Trong ngày hội, nhân dân khắp nơi nô nức kéo về trẩy hội, xem dân Hả Hộ tế lễ, rước kiệu nhà Thánh ra Bãi Dược hành lễ, vật thờ, chạy cờ, đảo cờ, hoàn cung, mộc dục, cúng Phật, cầu kinh siêu sinh tịnh độ…</p>
 
 <p class="normal">Từ khi có Đảng Cộng sản Việt Nam lãnh đạo, nhân dân Hồng Giang một lòng quyết tâm theo Đảng. Tổ chức Đảng của huyện Lục Ngạn ra đời đã lãnh đạo nhân dân giành chính quyền về tay cách mạng; tham gia cuộc kháng chiến chống Pháp 9 năm trường kỳ, gian khổ nhưng thắng lợi vô cùng vẻ vang. Tiến hành công cuộc xây dựng chủ nghĩa xã hội và tham gia đánh đuổi đế quốc Mỹ xâm lược và bè lũ tay sai bán nước, giải phóng miền Nam, thống nhất đất nước, góp phần vào sự nghiệp xây dựng một đất nước Việt Nam theo định hướng dân giàu, nước mạnh, xã hội dân chủ, công bằng và văn minh.</p>
 
 <p class="normal">Ngày nay, trên mảnh đất ấy, dưới sự lãnh đạo của Đảng bộ xã Hồng Giang, các dân tộc Kinh, Tày, Nùng, Sán Dìu, Sán Chí, Dao, Hoa, Cao Lan… đã đoàn kết, thống nhất chung tay xây dựng quê hương Hồng Giang mỗi ngày càng giàu đẹp. Những thôn xóm, làng phố ngày một đổi mới, nhiều căn nhà xây dựng khang trang, bền đẹp nổi lên giữa vườn đồi đầy hoa tươi trái ngọt, tràn đầy sinh khí và sức sống đón khách gần xa về thăm quê hương Hồng Giang ngàn năm văn hiến.</p>
 
-<p class="normal">Lạ thay, đất Hồng Giang chuyển &nbsp;mình, con người Hồng Giang cũng chuyển mình “Địa linh sinh nhân kiệt”. &nbsp;Con em Hồng Giang có mặt trên mọi lĩnh vực: Kinh tế, chính trị, văn hóa, xã hội, an ninh, quốc phòng. Kỹ sư có, cử nhân có, thạc sỹ có, tiến sỹ có, lãnh đạo huyện có, doanh nhân có, sĩ quan có, nông dân, công nhân giỏi làm nghề có… tất cả đều phấn đấu đem hết sức mình để cống hiến tài năng cho xã hội, cho quê hương, gia đình và bản thân vì một Hồng Giang tươi đẹp.</p>
+<div class="slideshow-container">
+  <div class="mySlides2">
+    <img src="ảnh/00. Hồng Giang - xã nông thôn mới nâng cao/24f5f7fb-5b35-4dc8-98d9-86ae221259d6.jpg"
+      style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="ảnh/00. Hồng Giang - xã nông thôn mới nâng cao/3a23efa5-dd12-4e58-b072-8d7a966e0925.jpg"
+      style="width:100%">
+  </div>
+</div>
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+  <br>
+  <div style="text-align:center">
+    <span class="dot slideDot2" onclick="chooseSlide(1,1)"></span>
+    <span class="dot slideDot2" onclick="chooseSlide(2,1)"></span>
+  </div>
+</div>
+
+<script>
+  showSlides(1, 1);
+</script>
+
+<p class="picnote"><em>Hồng Giang - xã nông thôn mới nâng cao</em></p>
+
+<p class="normal">Lạ thay, đất Hồng Giang chuyển mình, con người Hồng Giang cũng chuyển mình “Địa linh sinh nhân kiệt”. Con em Hồng Giang có mặt trên mọi lĩnh vực: Kinh tế, chính trị, văn hóa, xã hội, an ninh, quốc phòng. Kỹ sư có, cử nhân có, thạc sỹ có, tiến sỹ có, lãnh đạo huyện có, doanh nhân có, sĩ quan có, nông dân, công nhân giỏi làm nghề có… tất cả đều phấn đấu đem hết sức mình để cống hiến tài năng cho xã hội, cho quê hương, gia đình và bản thân vì một Hồng Giang tươi đẹp.</p>
+
+<script>
+  window.onload = function () {
+    setTimeout(autoChangeSlide, 5000);
+  }
+</script>
 
 </body>
